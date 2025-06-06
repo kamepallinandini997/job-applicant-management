@@ -53,18 +53,25 @@ def save_applicants(filepath, applicants):
         json.dump([a.__dict__ for a in applicants], f, indent=4)
 
 def add_applicant(applicants,filepath):
+    required_fields = ["name", "email", "role"]
     name = input("Enter Name: ").strip()
     email = input("Enter Email: ").strip()
     role = input("Enter Role: ").strip()
+    # Map field names to values for looping
+    field_values = {"name": name, "email": email, "role": role}
+    missing = []
+    for field in required_fields:
+        if not field_values[field]:
+            missing.append(field)
+    # If any required field is missing, report and exit
+    if missing:
+        print(f"Missing required field(s): {', '.join(missing)}")
+        return
     location = input("Enter Location: ").strip()
     skills_input = input("Enter Skills (comma-separated): ").strip()
     skills = [s.strip() for s in skills_input.split(",") if s.strip()]
-    try:
-        experience = int(input("Enter Experience (years): ").strip())
-        expected_salary = int(input("Enter Expected Salary: ").strip())
-    except ValueError:
-        print("Invalid numeric input.")
-        return
+    experience = int(input("Enter Experience (years): ").strip())
+    expected_salary = int(input("Enter Expected Salary: ").strip())
     status = input("Enter Application Status: ").strip()
 
     if any(app.email.lower() == email.lower() for app in applicants):
