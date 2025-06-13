@@ -1,0 +1,13 @@
+2025-06-13 15:23:42,267 - INFO - Fetching new articles.... Please wait
+2025-06-13 15:23:42,669 - INFO - Fetched 5 articles
+2025-06-13 16:02:33,567 - INFO - Fetching new articles.... Please wait
+2025-06-13 16:02:34,026 - INFO - Fetched 5 articles
+2025-06-13 16:20:02,245 - INFO - Fetching new articles.... Please wait
+2025-06-13 16:20:02,702 - INFO - Fetched 5 articles
+2025-06-13 16:26:39,262 - INFO - Fetching new articles.... Please wait
+2025-06-13 16:26:39,707 - INFO - Fetched 10 articles
+2025-06-13 18:13:18,936 - INFO - Fetching new articles.... Please wait
+2025-06-13 18:13:19,360 - INFO - Fetched 10 articles
+2025-06-13 18:13:33,390 - INFO - cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
+2025-06-13 18:15:32,613 - INFO - Fetching new articles.... Please wait
+2025-06-13 18:15:32,995 - INFO - Fetched 10 articles
