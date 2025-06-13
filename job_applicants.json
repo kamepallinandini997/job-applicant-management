@@ -1,0 +1,212 @@
+[
+    {
+        "name": "siva",
+        "email": "siva@gmail.com",
+        "role": "Data Analyst",
+        "location": "Hyderabad",
+        "skills": [
+            "Python",
+            "SQL",
+            "Tableau"
+        ],
+        "experience": 3,
+        "expected_salary": 700000,
+        "status": "\"status\": \"Shortlisted\""
+    },
+    {
+        "name": "Sneha Reddy",
+        "email": "sneha.reddy@gmail.com",
+        "role": "Frontend Developer",
+        "location": "Bangalore",
+        "skills": [
+            "React",
+            "HTML",
+            "CSS"
+        ],
+        "experience": 2,
+        "expected_salary": 600000,
+        "status": "Pending"
+    },
+    {
+        "name": "nandini",
+        "email": "nandini@gmail.com",
+        "role": "Backend Developer",
+        "location": "Delhi",
+        "skills": [
+            "Java",
+            "Spring Boot",
+            "MySQL"
+        ],
+        "experience": 5,
+        "expected_salary": 950000,
+        "status": "Hired"
+    },
+    {
+        "name": "padmaja",
+        "email": "padmaja@gmail.com",
+        "role": "Data Scientist",
+        "location": "Kolkata",
+        "skills": [
+            "Python",
+            "Machine Learning",
+            "R"
+        ],
+        "experience": 4,
+        "expected_salary": 1000000,
+        "status": "Shortlisted"
+    },
+    {
+        "name": "mohan",
+        "email": "mohan@gmail.com",
+        "role": "DevOps Engineer",
+        "location": "Pune",
+        "skills": [
+            "AWS",
+            "Docker",
+            "Kubernetes"
+        ],
+        "experience": 6,
+        "expected_salary": 1200000,
+        "status": "Pending"
+    },
+    {
+        "name": "sai teja",
+        "email": "saiteja.@gmailcom",
+        "role": "UI/UX Designer",
+        "location": "Mumbai",
+        "skills": [
+            "Figma",
+            "Sketch",
+            "Adobe XD"
+        ],
+        "experience": 3,
+        "expected_salary": 750000,
+        "status": "Shortlisted"
+    },
+    {
+        "name": "Rajesh",
+        "email": "rajesh@gmail.com",
+        "role": "Project Manager",
+        "location": "Chennai",
+        "skills": [
+            "Agile",
+            "Scrum",
+            "JIRA"
+        ],
+        "experience": 8,
+        "expected_salary": 1500000,
+        "status": "Hired"
+    },
+    {
+        "name": "Neha",
+        "email": "neha@gmail.com",
+        "role": "QA Engineer",
+        "location": "Noida",
+        "skills": [
+            "Selenium",
+            "Java",
+            "TestNG"
+        ],
+        "experience": 4,
+        "expected_salary": 800000,
+        "status": "Pending"
+    },
+    {
+        "name": "Arjun",
+        "email": "arjun@gmail.com",
+        "role": "Data Analyst",
+        "location": "Hyderabad",
+        "skills": [
+            "Python",
+            "Excel",
+            "Power BI"
+        ],
+        "experience": 2,
+        "expected_salary": 650000,
+        "status": "Shortlisted"
+    },
+    {
+        "name": "Divya",
+        "email": "divya.@gmail.com",
+        "role": "Data Scientist",
+        "location": "Bangalore",
+        "skills": [
+            "Python",
+            "Deep Learning",
+            "TensorFlow"
+        ],
+        "experience": 5,
+        "expected_salary": 1100000,
+        "status": "Pending"
+    },
+    {
+        "name": "Siddharth",
+        "email": "siddharth@gmail.com",
+        "role": "Software Engineer",
+        "location": "Pune",
+        "skills": [
+            "C++",
+            "Python",
+            "Linux"
+        ],
+        "experience": 3,
+        "expected_salary": 800000,
+        "status": "Shortlisted"
+    },
+    {
+        "name": "raju",
+        "email": "raju@gmail.com",
+        "role": "HR Manager",
+        "location": "Ahmedabad",
+        "skills": [
+            "Recruitment",
+            "Payroll",
+            "Communication"
+        ],
+        "experience": 7,
+        "expected_salary": 900000,
+        "status": "Hired"
+    },
+    {
+        "name": "kumar",
+        "email": "kumar@gmail.com",
+        "role": "Frontend Developer",
+        "location": "Surat",
+        "skills": [
+            "Vue.js",
+            "JavaScript",
+            "HTML"
+        ],
+        "experience": 2,
+        "expected_salary": 600000,
+        "status": "Pending"
+    },
+    {
+        "name": "ruku",
+        "email": "ruku@gmail.com",
+        "role": "Business Analyst",
+        "location": "Hyderabad",
+        "skills": [
+            "Excel",
+            "SQL",
+            "PowerPoint"
+        ],
+        "experience": 3,
+        "expected_salary": 720000,
+        "status": "Shortlisted"
+    },
+    {
+        "name": "anu",
+        "email": "anu@gmail.com",
+        "role": "Product Manager",
+        "location": "Gurgaon",
+        "skills": [
+            "Roadmapping",
+            "Analytics",
+            "Scrum"
+        ],
+        "experience": 6,
+        "expected_salary": 1400000,
+        "status": "Pending"
+    }
+]
