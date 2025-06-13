@@ -11,3 +11,5 @@
 2025-06-13 18:13:33,390 - INFO - cannot reshape tensor of 0 elements into shape [-1, 0] because the unspecified dimension size -1 can be any value and is ambiguous
 2025-06-13 18:15:32,613 - INFO - Fetching new articles.... Please wait
 2025-06-13 18:15:32,995 - INFO - Fetched 10 articles
+2025-06-13 23:39:33,759 - INFO - Fetching new articles.... Please wait
+2025-06-13 23:39:35,032 - INFO - Fetched 10 articles

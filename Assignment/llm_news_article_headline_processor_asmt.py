@@ -1,6 +1,7 @@
 import requests
 import logging 
 import torch
+import json
 import torch.nn.functional as F
 from transformers import GPT2LMHeadModel, GPT2Tokenizer, GPT2Model
 
@@ -65,6 +66,11 @@ def generate_headlines(prompt):
 
 
 def process_news_articles(news_articles):
+    output = {
+        "status": "ok",
+        "totalResults": len(news_articles),
+        "articles": []
+    }
     # Get Each News Article and get the Top 5 (count) Headlines
     for id, news_article in enumerate(news_articles):
         
@@ -97,6 +103,26 @@ def process_news_articles(news_articles):
         print ("\n Top 5 Headlines are:\n")
         for i, (headline,similarity)  in enumerate(top_five_headlines,1):
             print (f"{i} - {headline} - Score {similarity:.4f}")
+
+        headlines_to_json = [{"score": headline[1], "text": headline[0]} for headline in top_five_headlines]
+        # print(headlines_to_json)
+
+        article_json = {
+            "source": news_article.get("source"),
+            "author": news_article.get("author"),
+            "title": title,
+            "description": description,
+            "url": news_article.get("url"),
+            "urlToImage": news_article.get("urlToImage"),
+            "publishedAt": news_article.get("publishedAt"),
+            "content": content,
+            "headlines": headlines_to_json
+        }
+
+        output["articles"].append(article_json)
+
+        with open("generated_top_five_headlines.json", "w") as f:
+            json.dump(output, f, indent=4)
 
 
 
