@@ -1,0 +1,70 @@
+{
+  "status": "ok",
+  "totalResults": 2,
+  "articles": [
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Emma Roth",
+      "title": "Trump’s media company says it’s buying $2.5 billion in Bitcoin",
+      "description": "President Donald Trump’s media company could soon own $2.5 billion in Bitcoin. On Tuesday, Trump Media announced that it’s working with “approximately 50 institutional investors” to sell and issue $1.5 billion in stock and $1 billion in convertible notes. The…",
+      "content": "The Truth Social operator will get the money from a deal with investors.\r\nThe Truth Social operator will get the money from a deal with investors.\r\nPresident Donald Trumps media company could soon ow… [+1795 chars]",
+      "headlines": [
+        {
+          "score": 0.9975,
+          "headlines": "Trump's media company will soon own $2.5 billion in Bitcoin. On Tuesday, Trump Media"
+        },
+        {
+          "score": 0.9971,
+          "headlines": "Trump's media company may soon receive $2.5 billion in Bitcoin.  President"
+        },
+        {
+          "score": 0.9959,
+          "headlines": "Trump ’s media company plans to buy Bitcoin, and he’s buying…"
+        },
+        {
+          "score": 0.9957,
+          "headlines": "The Trump Media Company is looking for investors to help it pay $1.5 billion in Bitcoin debt"
+        },
+        {
+          "score": 0.9945,
+          "headlines": "Trump Media company could soon buy Bitcoin. The truth social operator will get the money from a deal with"
+        }
+      ]
+    },
+    {
+      "source": {
+        "id": "the-verge",
+        "name": "The Verge"
+      },
+      "author": "Justine Calma",
+      "title": "AI could consume more power than Bitcoin by the end of 2025",
+      "description": "AI could soon surpass Bitcoin mining in energy consumption, according to a new analysis that concludes artificial intelligence could use close to half of all the electricity consumed by data centers globally by the end of 2025. The estimates come from Alex de…",
+      "content": "Researchers forecast rising electricity demand from AI despite efficiency gains. \r\nResearchers forecast rising electricity demand from AI despite efficiency gains. \r\nAI could soon surpass Bitcoin min… [+6373 chars]",
+      "headlines": [
+        {
+          "score": 0.999,
+          "headlines": "AI could consume more power than Bitcoin by the end of 2025. iculture\nAI could soon surpass"
+        },
+        {
+          "score": 0.9987,
+          "headlines": "The Future of Artificial Intelligence ive already outlined our first predictions for the future of AI. ive"
+        },
+        {
+          "score": 0.9969,
+          "headlines": "AI could drive the future of financial institutions into the ground. ilyn\nThe Internet has revolutionized"
+        },
+        {
+          "score": 0.9952,
+          "headlines": "\"Humanities are beginning to take over the world's most valuable industries. The world's most valuable"
+        },
+        {
+          "score": 0.9647,
+          "headlines": "http://www.pbs.org/wgbh/archives/2014/07/21"
+        }
+      ]
+    }
+  ]
+}
